@@ -10,5 +10,5 @@ setInterval(()=>{
     m.style.transform=`rotate(${mRotation}deg)`
     s.style.transform=`rotate(${sRotation}deg)`
 
-    document.getElementById("display").innerText=`${hour} : ${minute} : ${second}`
+    document.getElementById("display").innerText=`${hour}:${minute}:${second}`
 },1000)
